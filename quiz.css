@@ -1,0 +1,62 @@
+/* Definieren eines Containers für das Quiz */
+.quiz-container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Definieren von Stilen für die Quizfrage */
+  #question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Definieren von Stilen für die Quizantworten */
+  #answers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Definieren von Stilen für individuelle Quizantworten */
+  .quiz-answer {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+  
+  /* Definieren Sie Stile für richtige und falsche Antworten */
+  .correct {
+    background-color: green;
+    color: white;
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Definieren von Stilen für die Quizpartitur */
+  
+    #score {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        }
+        
+        /* Definieren von Stilen für die Quizergebnismeldung */
+        #result-message {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+        }  
